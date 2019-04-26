@@ -1,15 +1,15 @@
 # de-faker-algthm
-
 Purpose: Planning for the algorithm of detecting self-trading
 
 ***
 
-Hypothesis
-###1. closed token flow
+## Hypothesis
 
-###2. repeated transaction pattern
+### 1. closed token flow
 
-###3. wallets for single contract
+### 2. repeated transaction pattern
+
+### 3. wallets for single contract
 For every wallets, count the number of contract which interact with the wallet
 If the number approaches 1, acknowledge as a fake tx
 * Requirement:
@@ -18,4 +18,4 @@ If the number approaches 1, acknowledge as a fake tx
 * Output:
   - list of fake wallets
 
-###4. liquid token cap
+### 4. liquid token cap
