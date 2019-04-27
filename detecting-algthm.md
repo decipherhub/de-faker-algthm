@@ -32,7 +32,10 @@ An abuser might use a same method repeatedly to generate fake transactions.
 If we can find any correlations between transactions, then those transactions could be regarded a fake.
 * Requirement:
   - list of transactions from the contract
-  - 
+  - Pattern recognition algorithm (hopefully machine learning based?)
+* Output:
+  - Repeated pattern and the fake tx generating scheme
+  - list of fake transactions
 
 ## Scenario #4
 
