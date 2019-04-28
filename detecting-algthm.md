@@ -27,6 +27,8 @@ If we succeed in finding the token flow in a closed group of wallets, then it ca
 
 ## Scenario #3
 An abuser might use a same method repeatedly to generate fake transactions.
+* Temporal correlation
+* Transaction volume
 
 ### Detection 1. Repeated transaction pattern
 If we can find any correlations between transactions, then those transactions could be regarded a fake.
